@@ -1,28 +1,40 @@
 # Pokedex
-Pokedex
+**Pokedex**
 
-This is a Pokedex web application that displays information on the first 151 Pokemon from the Pokemon API (PokeAPI). 
-The PokeAPI is a free, open-source API for Pokemon data that provides a wealth of information about each Pokemon, including their name, ID, image, and types.
+This is a simple Pokedex application built with HTML, CSS, and JavaScript. It uses the PokeAPI to fetch data about Pokemon, and displays them in a grid of cards with their images, names, and types.
+**Features**
+    Search: Users can search for a specific Pokemon by name or ID.
+    Filter: Users can filter the displayed Pokemon by type.
+    Favorite: Users can mark Pokemon as their favorites and view them in a separate list.
 
 **Tools Used**
 
-This Pokedex was created using **HTML5**, 
-                               **CSS3**, and 
-                               **JavaScript**. 
-The web application fetches data from the PokeAPI using the fetch API in JavaScript. The application also uses CSS Grid to display the Pokemon cards in a grid layout.
+    HTML5
+    CSS3
+    JavaScript
+    PokeAPI
+    Axios (for making API requests)
+    FontAwesome (for icons)
 
 **Getting Started**
+To run this application locally, you can simply clone this repository and open index.html in your web browser.
 
-To get started with this Pokedex, simply clone the repository and open the index.html file in your web browser. The web application will fetch data from the PokeAPI and display information on the first 151 Pokemon in a grid layout.
+git clone https://github.com/your-username/pokedex.git
+cd pokedex
 
-**Features**
+Alternatively, you can use a web server like http-server to serve the files.
+npm install --global http-server
+http-server
 
-This Pokedex web application includes the following features:
-    Display of the first 151 Pokemon from the PokeAPI
-    Display of each Pokemon's name, ID, image, and types
-    CSS Grid layout for displaying Pokemon cards in a grid
-    Hover effects on Pokemon cards for visual appeal
+Then open http://localhost:8080 in your web browser.
 
 **Usage**
 
-This Pokedex can be used to learn more about the first 151 Pokemon from the PokeAPI. Users can view each Pokemon's name, ID, image, and types by simply scrolling through the grid of Pokemon cards. Users can also hover over each Pokemon card to see a visual hover effect.
+Search
+To search for a specific Pokemon, simply type its name or ID in the search box and press Enter or click the "Search" button. If the Pokemon exists, it will be displayed in the grid.
+
+Filter
+To filter the displayed Pokemon by type, select one or more types from the dropdown list and click the "Filter" button. Only Pokemon that match the selected types will be displayed in the grid.
+
+Favorite
+To mark a Pokemon as a favorite, click the heart icon on its card. The icon will turn red to indicate that it has been favorited. To view your favorites, click the "Favorites" button. To remove a Pokemon from your favorites, simply click the heart icon again.
